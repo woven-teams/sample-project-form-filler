@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended",
+    "tslint-no-unused-expression-chai",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "interface-name": false,
+    "object-literal-sort-keys": false
+  }
+}
